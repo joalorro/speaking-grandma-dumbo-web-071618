@@ -15,7 +15,7 @@
 def speak_to_grandma(greeting)
   
   if greeting == 'I LOVE YOU GRANDMA!'
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   elsif greeting != greeting.downcase
     puts "HUH!? SPEAK UP, SONNY!"
     return "HUH!? SPEAK UP, SONNY!"
